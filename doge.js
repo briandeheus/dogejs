@@ -36,8 +36,6 @@
 		muchPlay     = true;
 		suchInterval = setInterval(function () {
 
-			console.log('word:', manyWords[muchIndex]);
-
 			if(muchIndex === wowLength - 1) {
 				muchIndex = 0;
 			} else {
@@ -66,6 +64,7 @@
 		wowElement.style.position   = 'fixed';
 		wowElement.style.fontSize   = '26px';
 		wowElement.style.fontFamily = '"Comic Sans MS"';
+		wowElement.style.zIndex     = 10000001;
 		document.body.appendChild(wowElement);
 		muchWords();
 
