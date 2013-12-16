@@ -10,6 +10,8 @@ much fun       wow
             
             wow
 ```
+##Very demo
+[such click here](http://briandeheus.github.io/dogejs/)
 ##Such ease of installation
 ```
 <script src="doge.js"></script>
