@@ -28,3 +28,9 @@ much fun       wow
 		]);
 </script>
 ```
+##Why stop?
+```
+doge.stop();
+//srsly don't do this
+//keep running forever.
+```
